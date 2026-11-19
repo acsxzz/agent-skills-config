@@ -54,4 +54,6 @@ The full set this repo's skills expect on the tracker. Colours and descriptions 
 
 `enhancement` ships with a new GitHub repository's default label set; keep it and do not recreate it.
 
-Create any missing label with `gh label create "<name>" --color <colour> --description "<description>"`. Never apply a label that is not in this file — the skills address roles, and this table is the only translation.
+Create any missing label with `gh label create "<name>" --color <colour> --description "<description>"`.
+
+The skills address roles, so this table is the only translation between role and label string — when a skill says "apply the AFK-ready triage label", it means the string in the row above, not a label you invent. Other labels already on the tracker (GitHub's `documentation`, `duplicate`, `question`, …) remain available for ordinary use; no skill requires them and none are applied automatically.
