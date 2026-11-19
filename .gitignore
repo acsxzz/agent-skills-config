@@ -1,0 +1,15 @@
+# This workspace is a scratch arena, not a source tree.
+#
+# It holds multi-GB tool caches (node_modules, .pnpm-store, __pycache__), browser
+# profiles with saved credentials and cookies (.amz-audit, .chrome-scrape),
+# business documents (选品表*, 渠道清单), and build artifacts.
+#
+# Track ONLY the repo-config skeleton, so that a careless `git add -A` can never
+# publish any of the above. Add new tracked files by un-ignoring them here.
+*
+!/.gitignore
+!/README.md
+!/AGENTS.md
+!/docs/
+!/docs/agents/
+!/docs/agents/*.md
